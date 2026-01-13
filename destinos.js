@@ -51,6 +51,7 @@ function validarFormulario() {
     }
 
     alert('Pedido enviado com sucesso!');
+    reset();
     return false;
 }
 carregarDestino();

@@ -7,5 +7,6 @@ function validarContacto() {
     if (!email.includes('@') || !email.includes('.')) { alert('Por favor, indica um email válido.'); return false; }
     if (mensagem.length < 10) { alert('A mensagem deve ter pelo menos 10 caracteres.'); return false; }
     alert('Mensagem enviada com sucesso! Entraremos em contacto brevemente.');
+    reset();
     return false;
 }
